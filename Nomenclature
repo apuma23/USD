@@ -1,0 +1,18 @@
+Files
+.usdc - USD Crate, binary
+.usda - USD Ascii, human readable
+.usd  - Botah USD Crate and ASCII
+
+Attribute Class  ------  Interpolation
+Point                    Vertex
+Vertex                   FaceVarying
+Primitive                Uniform
+Detail                   Constant
+
+Colors
+Blue - Default values
+Green - Time sample values
+Orange - FallBack values
+Grey - Empty values
+Red/Purple - Custom values automatically computed by USD
+Pink - Value clips ( Time sampled values loaded from a value clip)
